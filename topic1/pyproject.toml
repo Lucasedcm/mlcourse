@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "topic1"
+version = "0.1.0"
+description = ""
+authors = ["lucasedcm <lucascesarmorais7@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+scipy = "^1.11.1"
+numpy = "^1.25.1"
+pandas = "^2.0.3"
+notebook = "^6.5.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
